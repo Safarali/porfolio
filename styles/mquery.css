@@ -1,0 +1,119 @@
+@media (max-width: 991px) {
+  .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+  /* header */
+  .hero-text h1,
+  span#typing-text {
+    font-size: 220%;
+  }
+
+  /* About Section */
+  .about-section { padding-top: 80px; }
+   div.me-son-col { padding-top: 100px; }
+
+   /* Skills Section */
+
+   .skills-section p {
+     padding-left: 0px;
+   }
+
+   /* Footer */
+   .footer-section .logo {
+     margin-bottom: 5px;
+   }
+   .footer-icons a, .footer-contact a {
+     top: 15px;
+   }
+
+
+   /* Sticy Navigation */
+
+   .sticky {
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+   }
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .hero-text h1,
+  span#typing-text {
+    font-size: 150%;
+  }
+
+  .btn-hero {
+    padding: 8px 20px;
+  }
+
+  /* About */
+  .about-section { padding-top: 60px; }
+
+  .img-col:last-child {
+    margin-top: 30px;
+  }
+
+  p {
+    line-height: 28px;
+    font-size: 70%;
+  }
+
+  /*======= Sticky Nav======= */
+  .sticky {
+    padding: 5px 15px;
+    overflow: visible;
+  }
+
+  .sticky .mobile-icon i {
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 15px;
+    float: right;
+    clear: right;
+  }
+
+  .top-nav-links {
+    display: none;
+  }
+   .sticky .top-nav-links {
+     display: none;
+     float: left !important;
+     background-color: var(--pink);
+     width: 100%;
+     position: fixed;
+     top: 60px;
+     left: 0;
+     padding-bottom: 20px;
+     border-top: 1px solid #D3D0CF;
+  }
+
+  .sticky .top-nav-links li {
+    position: relative;
+    display:block;
+    margin-bottom: 3px;
+  }
+
+  .left-column {
+    border-right: none;
+  }
+}
+@media (max-width: 335px) {
+  .btn-hero {
+    font-size: 60%;
+  }
+
+  .overlay-buttons a {
+    font-size: 60%;
+  }
+}
