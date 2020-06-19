@@ -72,8 +72,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 630px;
+  background-attachment: fixed;
 }
 
 .top-nav {
@@ -326,6 +326,7 @@ img.webapp {
   right: 0;
   width: 100%;
   height: 100%;
+  cursor: pointer;
   background: #de6262;
   background: -webkit-linear-gradient(var(--overlay), var(--overlay));
   background: linear-gradient(var(--overlay), var(--overlay));
@@ -334,7 +335,6 @@ img.webapp {
 }
 
 .overlay:hover {
-  height: 25%;
   opacity: 1;
 }
 
